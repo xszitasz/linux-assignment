@@ -1,0 +1,17 @@
+su (switch to root)
+grep "PRETTY_NAME" /etc/os-release (get the name and version of OS)
+du -h (Get discs mapped on server with human readable values)
+cat /etc/group (List of groups)
+cat /etc/passwd (List of users)
+date +"%Z %z" (Get timezone)
+
+mkdir /etc/test (In etc folder create folder test)
+touch test-1.txt
+touch test-2.log
+touch test.sh (Create 3 files with touch cmd)
+vi test-1.txt (Open file and write some text, then press ESC and write :wq taht will save the changes and exit from file)
+
+echo "Hello World!!!" >> test-1.txt (Add "Hello World!!!" to the file)
+rm -rf test-2.log (Remove test-2.log)
+mv test.sh /tmp/test (Move file to source destination, you have to pass the source destination from root path)
+rm -rf test (Remove test folder)
